@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px ;
+}
+
+
+.header{
+    
+    background-repeat: no-repeat;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.btn-primary{
+    background-color: #ee743f;
+    font-weight: bold;
+    color: rgb(17, 16, 16);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+  
+  
+  }
+
+  
+nav ul li {
+    list-style: none;
+    margin: 20px;
+    
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; /* Adjust the height as needed */
+    background-image: url('../image-ass1/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.banner-profile-pic {
+    width: 250px;
+    height: auto; /* Maintain aspect ratio */
+}
+.banner-content {
+    margin-top: 20px; /* Adjust as needed */
+}
+.banner-description {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
