@@ -23,15 +23,15 @@ nav{
     border: none;
     border-radius: 10px;
     padding: 20px 30px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    transition: box-shadow 0.3s ease; /* Smooth transition */
-    cursor: pointer; /* Cursor style */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+    cursor: pointer; 
   
   
   }
 
   .button:hover {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
   .btn-primary-banner{
@@ -68,17 +68,17 @@ nav ul li {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh; /* Adjust the height as needed */
+    height: 100vh; 
     background-image: url('../image-ass1/Hero-bg.png');
     background-size: cover;
     background-position: center;
 }
 .banner-profile-pic {
     width: 250px;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
 }
 .banner-content {
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px; 
 }
 .banner-description {
     margin: 0;
@@ -112,7 +112,7 @@ main{
     justify-content: space-around;
     
         flex: 1;
-        margin: 0 10px; /* Optional margin between items */
+        margin: 0 10px; 
       
 }
 
@@ -127,7 +127,7 @@ main{
     
 .abcd1-pic{
     width: 250px;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
 
 }
 
@@ -201,16 +201,16 @@ footer input[type="text"],footer textarea{
 }
 
 .footer-bg {
-    background-image: url('../image-ass1/handshake.jpg'); /* Replace with your background image URL */
-    background-size: cover; /* Ensures the background image covers the entire footer */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    padding: 20px; /* Adjust padding as needed */
+    background-image: url('../image-ass1/handshake.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh; /* Ensures the footer takes at least the full viewport height */
-    width: 100%; /* Ensures the footer takes the full viewport width */
+    min-height: 50vh; 
+    width: 100%; 
     border-radius: 10px;
     margin-left: 30px;
     margin-right: 30px
@@ -220,7 +220,7 @@ footer input[type="text"],footer textarea{
     text-align: center;
  
     padding: 20px;
-    border-radius: 10px; /* Optional: adds rounded corners */
+    border-radius: 10px; 
     width: 50%;
 }
 
