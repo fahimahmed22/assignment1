@@ -38,6 +38,16 @@ nav{
 
   }
 
+ .btn-primary-why-web{
+   background-color: aliceblue;
+    font-weight: bold;
+    color: rgb(17, 16, 16);
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+
+ }
+
   
 nav ul li {
     list-style: none;
@@ -66,12 +76,15 @@ nav ul li {
 .banner-description {
     margin: 0;
     padding: 0;
-    font-size: 24px;
-    font-weight: 800;
+    font-size: 45px;
+    font-weight: bold;
     
 }
 
 .banner-sub-description{
+    font-size: 20px;
+    font-weight: bold;
+
 
 }
 
@@ -170,7 +183,7 @@ footer{
 }
 
 
-footer input[type="text"],footer input[type="email"],footer textarea{
+footer input[type="text"],footer textarea{
     height: 65px;
     border-radius: 10px;
     background-color: aliceblue;
@@ -214,3 +227,42 @@ footer input[type="text"],footer input[type="email"],footer textarea{
 
 }
 
+
+.item-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.last-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-color: rgb(240, 240, 239);
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.section-title-last-div{
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+
+.section-title-support{
+    font-size: 15px;
+    font-weight:bold;
+    color: rgb(14, 16, 17);
+  
+    
+
+
+}
