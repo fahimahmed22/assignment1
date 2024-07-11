@@ -23,9 +23,16 @@ nav{
     border: none;
     border-radius: 10px;
     padding: 20px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Cursor style */
   
   
   }
+
+  .button:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect on hover */
+}
 
   .btn-primary-banner{
     background-color: rgb(243, 149, 96);
@@ -260,9 +267,71 @@ footer input[type="text"],footer textarea{
 .section-title-support{
     font-size: 15px;
     font-weight:bold;
-    color: rgb(14, 16, 17);
+    color: rgb(10, 10, 10);
   
     
 
 
 }
+
+.support{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.video-container {
+   width: 1076px;
+   height: 550px;
+   border-radius: 16px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.my-Inspiration.video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.my-Inspiration p{
+    color: rgb(13, 19, 33);
+    font-family: Axeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+
+}
+
+.my-Inspiration h3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.my-Inspiration{
+    align-items: center;
+
+}
+
